@@ -1,0 +1,8 @@
+<files readme.txt>
+    Deny from All
+</files>
+RewriteEngine on
+RedirectMatch 403 /\..*$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php

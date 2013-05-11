@@ -1,0 +1,137 @@
+body{
+    width: 1000px;
+    margin: 0px auto;
+}
+header{
+    width: 100%;
+    background: #5050A0;
+    background: -moz-linear-gradient(top, #5050A0, #A0A0FF);
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#5050A0), color-stop(100%,#A0A0FF));
+    background: -webkit-linear-gradient(top, #5050A0, #A0A0FF);
+    background: linear-gradient(top, #5050A0, #A0A0FF);
+    text-align: center;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+header p{
+    margin: 0px;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFF;
+    font-weight: bold;
+}
+#wrapper{
+    width:100%;
+}
+#menu{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 250px;
+}
+#content{
+    position: relative;
+    float: left;
+    width: 749px;
+    border-left: solid 1px #A0A0A0;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #5050A0;
+}
+#menu ul li a:hover{
+    color: #A0A0FF;
+}
+#comment_header{
+    text-align: center;
+    border-bottom: solid 1px #A0A0A0;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5050A0;
+    margin-bottom: 20px;
+}
+#comments{
+    width: 700px;
+    margin: 0px auto;
+}
+#comment_table td{
+    text-align: center;
+}
+#th_1{width:80px;}
+#th_2{width:100px;}
+#th_3{width:120px;}
+#th_4{width:90px;}
+#th_5{width:150px;}
+#th_6{width:150px;}
+
+#pagination{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+.page_item{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #5050A0;
+    margin: 2px;
+    background: #A0A0FF;
+    color: #FFF;
+    text-decoration: none;
+}
+#page_item_active{
+    width: 20px;
+    height: 20px;
+    border: solid 1px #505050;
+    margin: 2px;
+    background: #A0A0A0;
+    color: #000;    
+}
+#pagination_content div, #pagination_content a{
+    position: relative;
+    float: left;
+}
+#pagination_content{
+    width: 200px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#pagination_text{
+    line-height: 25px;
+    margin-right: 5px;
+}
+#form_wrapper{
+    padding: 0 30px;
+}
+#add_error{
+    line-height: 30px;
+    background: #922;
+    text-align: center;
+    color: #fff;
+}
+.sort_asc{
+    padding-left: 14px;
+    background: url('/www/sort_icon.gif') no-repeat 0px 8px;
+}
+.sort_desc{
+    padding-left: 14px;
+    background: url('/www/sort_icon.gif') no-repeat 0px -8px;
+}
+.transparent{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background: #000;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
